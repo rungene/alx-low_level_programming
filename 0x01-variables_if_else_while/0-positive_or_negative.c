@@ -1,13 +1,28 @@
-if (n > 0)
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-puts("is positive\n");
+	int n;
 
-}
-else if (n == 0)
-{
-puts("is zero\n");
-}
-else
-{
-puts("is negative\n");
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+	puts("is positive\n");
+	}
+	else if (n == 0)
+	{
+	puts("is zero\n");
+	}
+	else
+	{
+	puts("is negative\n");
+	}
+	return (0);
 }
