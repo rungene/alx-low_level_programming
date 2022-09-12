@@ -4,14 +4,14 @@
  *
  * Return: function returns zero on success
  */
-int main (void)
+int main(void)
 {
 	int ch;
 
-	for (ch =  0 + '0'; ch <=9 + '0'; ch++)
+	for (ch =  0 + '0'; ch <= 9 + '0'; ch++)
 	{
 	putchar(ch);
-	if(ch != '9')
+	if (ch != '9')
 	{
 	putchar(',');
 	putchar(' ');
