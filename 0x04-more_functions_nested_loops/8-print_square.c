@@ -4,7 +4,7 @@
 *print_square - prints a square, followed by a new line.
 *@size:is the size of the square
 */
-print_square(int size)
+void print_square(int size)
 {
 	int i, j;
 
