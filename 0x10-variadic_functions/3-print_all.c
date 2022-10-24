@@ -56,16 +56,13 @@ void print_all(const char * const format, ...)
 			case 's':
 			{
 				str = va_arg(ap, char*);
-					if (str == NULL)
-					{
-						printf("(nil)");
-						break;
-					}
-					else
+					if (str != NULL)
 					{
 						printf("%s", str);
 						break;
 					}
+					printf("(nil)");
+					break;
 			}
 		}
 		if ((format[i] == 'c' || format[i] == 'i' || format[i] == 's' ||
