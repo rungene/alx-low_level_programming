@@ -18,3 +18,8 @@ Tasks
 4. Free list 
 	File: 4-free_listint.c - Write a function that frees a listint_t list.
 		Prototype: void free_listint(listint_t *head);
+
+5. Free 
+	5-free_listint2.c - Write a function that frees a listint_t list.
+		Prototype: void free_listint2(listint_t **head);
+		The function sets the head to NULL
