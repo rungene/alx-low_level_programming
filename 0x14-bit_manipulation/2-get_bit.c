@@ -11,7 +11,7 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	int bitStatus;
 
-	if (!n)
+	if (!n && !index)
 		return (-1);
 
 	bitStatus = (n >> index) & 1;
