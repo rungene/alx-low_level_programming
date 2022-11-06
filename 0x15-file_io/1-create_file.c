@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 /**
 * create_file - creates a file.
 * @filename: the name of the file to create
@@ -10,7 +9,7 @@
 */
 int create_file(const char *filename, char *text_content)
 {
-	int fd;
+	int fd, len = 0;
 	ssize_t bytes;
 
 	if (filename == NULL)
@@ -19,7 +18,10 @@ int create_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 
-	bytes = write(fd, text_content, strlen(text_content));
+	while (text_content && *(text_content + len))
+		len++;
+
+	bytes = write(fd, text_content, len);
 	if (bytes == -1)
 		return (-1);
 	close(fd);
