@@ -30,7 +30,6 @@ int main(int ac, char **av)
 	if (fdto < 0)
 	{
 		dprintf(2, "Error: Can't write to %s\n", av[2]);
-		exit(99)
 	}
 	bytes = write();
 
