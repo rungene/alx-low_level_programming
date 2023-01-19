@@ -45,3 +45,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 **0. Trust no one**
 
 **1. string_nconcat**
+
+**2. _calloc**
