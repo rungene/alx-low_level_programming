@@ -14,13 +14,12 @@ int *array_range(int min, int max)
 	numele = 0;
 	if (min > max)
 		return (NULL);
-	for (i = min; i <= max; i++)
-		numele += 1;
-	p = malloc(sizeof(int) * (numele));
+	numele = max - min;
+	p = malloc(sizeof(int) * (numele + 1));
 
 	if (p == NULL)
 		return (NULL);
-	for (i = min; i <= max; i++)
+	for (i = 0; i <= numele; i++)
 		*(p + i) = min++;
 	return (p);
 }
