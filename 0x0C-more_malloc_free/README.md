@@ -47,3 +47,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 **1. string_nconcat**
 
 **2. _calloc**
+
+**3. array_range**
