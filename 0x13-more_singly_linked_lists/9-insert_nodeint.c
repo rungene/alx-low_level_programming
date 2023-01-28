@@ -17,7 +17,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	temp2 = *head;
 	/*empty list*/
-	if (*head == NULL)
+	if (head == NULL)
 		return (NULL);
 
 	/*create the new node to add*/
