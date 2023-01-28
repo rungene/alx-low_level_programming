@@ -25,9 +25,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	/*if malloc returned NULL*/
 	if (temp == NULL)
 		return (NULL);
-	/*initialize the node*/
-	temp->n = n;
-	temp->next = NULL;
 	if (idx > 0)
 	{
 		/*traverse the linked list up to idx - 1*/
@@ -37,12 +34,15 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	else if (idx == 0)
 	{
+		temp->n = n;
 		temp->next = (*head)->next;
 		*head = temp;
 	}
 	/*negative index*/
 	else
 		return (NULL);
+	/*initialize the node*/
+	temp->n = n;
 	/*fixing link at idx position*/
 	temp->next = temp2->next;
 	/*fixing the link between idx - 1 and new created node */
