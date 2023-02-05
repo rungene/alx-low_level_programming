@@ -89,3 +89,9 @@ typedef struct dlistint_s
 
 	- Prototype: dlistint\_t *add\_dnodeint\_end(dlistint\_t \*\*head, const int n);
 	- Return: the address of the new element, or NULL if it failed
+
+**4. Free list**
+
+	Write a function that frees a dlistint_t list.
+
+	- Prototype: void free\_dlistint(dlistint\_t *head);
