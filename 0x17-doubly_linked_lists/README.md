@@ -95,3 +95,11 @@ typedef struct dlistint_s
 	Write a function that frees a dlistint_t list.
 
 	- Prototype: void free\_dlistint(dlistint\_t *head);
+
+**5. Get node at index**
+
+	Write a function that returns the nth node of a dlistint_t linked list.
+
+	- Prototype: dlistint_t *get\_dnodeint\_at\_index(dlistint\_t *head, unsigned int index);
+	- where index is the index of the node, starting from 0
+	- if the node does not exist, return NULL
