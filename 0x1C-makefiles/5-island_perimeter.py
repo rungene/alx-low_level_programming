@@ -18,6 +18,8 @@ def island_perimeter(grid):
         perimeter of the island described in grid
     """
     perimeter = 0
+    rows = len(grid)
+    col = len(grid[0])
     if grid == 0:
         water_zone = 0
         perimeter = peremiter + (2 * water_zone)
