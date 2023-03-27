@@ -27,19 +27,19 @@ def island_perimeter(grid):
     col = len(grid[0])
 
     # iterate over each cell in the grid using a nested for loop.
-    for i in range(1, row - 1):
-        for j in range(1, col - 1):
+    for i in range(row):
+        for j in range(col):
             if grid[i][j] == 1:
                 # check top water surrouded
-                if grid[i - 1][j] == 0:
+                if i == 0 or grid[i - 1][j] == 0:
                     perimeter += 1
                 # check bottom  water surrouded
-                if grid[i + 1][j] == 0:
+                if i == len(grid) - 1 or grid[i + 1][j] == 0:
                     perimeter += 1
                 # check left water surrounded
-                if grid[i][j - 1] == 0:
+                if j == 0 or grid[i][j - 1] == 0:
                     perimeter += 1
                 # check right water surounded
-                if grid[i][j + 1] == 0:
+                if j == len(grid[0]) - 1 or grid[i][j + 1] == 0:
                     perimeter += 1
     return perimeter
