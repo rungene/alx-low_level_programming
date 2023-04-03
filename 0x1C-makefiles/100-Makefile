@@ -10,6 +10,7 @@ NAME = school
 CFLAGS=-Wall -Werror -Wextra -pedantic
 .PHONY: all re clean oclean fclean
 all : $(OBJ) m.h
+	@if [ ! -e m.h ]; then echo "Error: m.h file not found"; exit 1; fi
 	$(CC) $(OBJ) -o $(NAME)
 
 re: oclean all
