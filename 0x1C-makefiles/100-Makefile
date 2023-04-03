@@ -1,0 +1,24 @@
+# the compiler to use.
+CC = gcc
+# SRC: the .c files
+SRC = main.c school.c
+# OBJ: the .o files
+OBJ=$(SRC:.c=.o)
+#NAME: the name of the executable
+NAME = school
+#CFLAGS: your favorite compiler flags: -Wall -Werror -Wextra -pedantic
+CFLAGS=-Wall -Werror -Wextra -pedantic
+all : $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+.PHONY: clean oclean fclean
+
+re: oclean all
+
+clean :
+	$(RM) $(NAME) *~
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
