@@ -136,3 +136,13 @@ Found 999 at index: -1
 	- GitHub repository: alx-low_level_programming
 	- Directory: 0x1E-search_algorithms
 	- File: 1-binary.c
+
+> 2. Big O #0 
+
+What is the time complexity (worst case) of a linear search in an array of size n?
+
+**Repo:**
+
+	- GitHub repository: alx-low_level_programming
+	- Directory: 0x1E-search_algorithms
+	- File: 2-O
