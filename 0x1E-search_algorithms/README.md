@@ -156,3 +156,13 @@ What is the space complexity (worst case) of an iterative linear search algorith
 	- GitHub repository: alx-low_level_programming
 	- Directory: 0x1E-search_algorithms
 	- File: 3-O
+
+> 4. Big O #2 
+
+What is the time complexity (worst case) of a binary search in an array of size n?
+
+**Repo:**
+
+	- GitHub repository: alx-low_level_programming
+	- Directory: 0x1E-search_algorithms
+	- File: 4-O
