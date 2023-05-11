@@ -166,3 +166,13 @@ What is the time complexity (worst case) of a binary search in an array of size 
 	- GitHub repository: alx-low_level_programming
 	- Directory: 0x1E-search_algorithms
 	- File: 4-O
+
+> 5. Big O #3 
+
+What is the space complexity (worst case) of a binary search in an array of size n?
+
+**Repo:**
+
+	- GitHub repository: alx-low_level_programming
+	- Directory: 0x1E-search_algorithms
+	- File: 5-O
