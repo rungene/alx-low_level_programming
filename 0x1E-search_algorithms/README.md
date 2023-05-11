@@ -176,3 +176,27 @@ What is the space complexity (worst case) of a binary search in an array of size
 	- GitHub repository: alx-low_level_programming
 	- Directory: 0x1E-search_algorithms
 	- File: 5-O
+
+> 6. Big O #4 
+
+What is the space complexity of this function / algorithm?
+
+```
+int **allocate_map(int n, int m)
+{
+     int **map;
+
+     map = malloc(sizeof(int *) * n);
+     for (size_t i = 0; i < n; i++)
+     {
+          map[i] = malloc(sizeof(int) * m);
+     }
+     return (map);
+}
+```
+
+**Repo:**
+
+	- GitHub repository: alx-low_level_programming
+	- Directory: 0x1E-search_algorithms
+	- File: 6-O
