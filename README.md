@@ -5,7 +5,7 @@ In this  project we explore SE Foundations using c programming language
 ## C
 
 - Allowed editors: vi, vim, emacs
-- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options <span style='color:red;'>-Wall -Werror -Wextra -pedantic -std=gnu89</span>
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
 - A README.md file at the root of the repo, containing a description of the repository
 - There should be no errors and no warnings during compilation
