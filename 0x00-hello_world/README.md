@@ -20,7 +20,7 @@
 
 # Resources
 
-- [Everything you need to know to start with C.pdf](./Everything_you_need_to_know_to_start_with_C.pdf)
+- [Everything you need to know to start with C.pdf](/pdf/Everything_you_need_to_know_to_start_with_C.pdf)
 - [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 - ["C" Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M)
 - [Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
