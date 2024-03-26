@@ -2,7 +2,7 @@
 /**
  * main - This is a main function
  *
- * Return: the function returns zero if no erro while non zero error
+ * Return: the function returns zero if no error (Success)
  */
 int main(void)
 {
