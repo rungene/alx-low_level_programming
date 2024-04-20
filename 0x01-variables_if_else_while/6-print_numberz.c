@@ -10,7 +10,7 @@ int main(void)
 
 	for (base10 = 0 + '0'; base10 <= 9 + '0'; base10++)
 	{
-	putchar(base10);
+		putchar(base10);
 	}
 	putchar('\n');
 	return (0);
