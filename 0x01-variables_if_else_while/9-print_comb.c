@@ -2,7 +2,7 @@
 /**
  * main - Entry of the preogram
  *
- * Return: function returns zero on success
+ * Return: zero(0) on success
  */
 int main(void)
 {
@@ -10,12 +10,12 @@ int main(void)
 
 	for (ch =  0 + '0'; ch <= 9 + '0'; ch++)
 	{
-	putchar(ch);
-	if (ch != '9')
-	{
-	putchar(',');
-	putchar(' ');
-	}
+		putchar(ch);
+		if (ch != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
