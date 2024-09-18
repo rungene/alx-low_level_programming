@@ -36,6 +36,13 @@
 - What is the ASCII character set
 - What are the purpose of the gcc flags -m32 and -m64
 
+## Requirements
+
+### General
+
+- A README.md file, at the root of the folder of the project
+- You are not allowed to use **system**
+
 ### Tasks
 
 - 0-positive_or_negative.c - This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
